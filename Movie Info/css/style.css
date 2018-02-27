@@ -1,0 +1,172 @@
+#dvMovies #dvImg {
+    width: 90%;
+    margin: 15px auto;
+    background-size: cover;
+    background-position: center center;
+}
+
+#dvMovies .col-xl-3,
+.col-lg-4,
+.col-md-6,
+.col-sm-6,
+.col-xs-12 .card .card-title {
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    #dvMovies #dvImg {
+        height: 450px;
+    }
+
+    #dvMovies .col-xl-3,
+    .col-lg-4,
+    .col-md-6,
+    .col-sm-6,
+    .col-xs-12 .card {
+        height: 500px;
+        width: 19rem;
+    }
+
+    /*  Movie Details Responsive CSS  */
+    #dvMovie #dvPoster {
+        width: 100%;
+        height: 360px;
+        text-align: center;
+    }
+
+    #dvMovie #dvMovieDetails {
+        width: 100%;
+        /*        text-align: center;*/
+    }
+
+    #dvMovie img {
+        height: 350px;
+    }
+    /*  END Movie Details Responsive CSS  */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #dvMovies #dvImg {
+        height: 250px;
+        margin: 5px auto 0;
+        ;
+    }
+
+    #dvMovies .col-xl-3,
+    .col-lg-4,
+    .col-md-6,
+    .col-sm-6,
+    .col-xs-12 .card {
+        height: 280px;
+        width: 13rem;
+    }
+
+    #dvMovies .col-lg-3 .card .card-title {
+        height: 30px;
+    }
+
+    /*  Movie Details Responsive CSS  */
+    #dvMovie #dvPoster {
+        width: 100%;
+        height: 360px;
+        text-align: center;
+    }
+
+    #dvMovie #dvMovieDetails {
+        width: 100%;
+        /*        text-align: center;*/
+    }
+
+    #dvMovie img {
+        height: 350px;
+    }
+    /*  END Movie Details Responsive CSS  */
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #dvMovies #dvImg {
+        height: 390px;
+    }
+
+    #dvMovies .col-xl-3,
+    .col-lg-4,
+    .col-md-6,
+    .col-sm-6,
+    .col-xs-12 .card {
+        height: 450px;
+        width: 17rem;
+    }
+
+    /*  Movie Details Responsive CSS  */
+    #dvMovie #dvPoster {
+        width: 100%;
+        height: 520px;
+        text-align: center;
+    }
+
+    #dvMovie #dvMovieDetails {
+        width: 100%;
+        text-align: left;
+    }
+
+    #dvMovie img {
+        height: 340px;
+    }
+    /*  END Movie Details Responsive CSS  */
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #dvMovies #dvImg {
+        height: 390px;
+    }
+
+    #dvMovies .col-xl-3,
+    .col-lg-4,
+    .col-md-6,
+    .col-sm-6,
+    .col-xs-12 .card {
+        height: 450px;
+        width: 17rem;
+    }
+
+    /*  Movie Details Responsive CSS  */
+    #dvMovie img {
+        width: 300px;
+    }
+    /*  END Movie Details Responsive CSS  */
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    #dvMovies #dvImg {
+        height: 390px;
+    }
+
+    #dvMovies .col-xl-3,
+    .col-lg-4,
+    .col-md-6,
+    .col-sm-6,
+    .col-xs-12 .card {
+        height: 450px;
+        width: 16rem;
+    }
+
+    /*  Movie Details Responsive CSS  */
+    #dvMovie img {
+        width: 355px
+    }
+    /*  END Movie Details Responsive CSS  */
+}
